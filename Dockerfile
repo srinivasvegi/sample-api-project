@@ -19,8 +19,6 @@
 
 FROM ubuntu:latest
 
-MAINTAINER vasuvegi7777@gmail.com
-
 RUN apt-get update && apt-get install -y python3-pip python3-dev
 
 WORKDIR /app
